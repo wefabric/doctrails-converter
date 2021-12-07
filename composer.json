@@ -1,0 +1,23 @@
+{
+    "name": "wefabric/insbou003-converter",
+    "description": "Package for converting data to and from INSBOU003 XML files.",
+    "license": "MIT",
+    "keywords": [
+        "wefabric",
+        "insbou003",
+        "insbou"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Wefabric\\Insbou003Converter\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kevin Nauta",
+            "email": "kevin@wefabric.nl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
