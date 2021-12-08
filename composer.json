@@ -9,7 +9,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Wefabric\\Insbou003Converter\\": "src/"
+            "Wefabric\\INSBOU003Converter\\": "src/"
         }
     },
     "authors": [
@@ -19,5 +19,12 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require-dev": {
+        "symfony/var-dumper": "6.1.x-dev"
+    },
+    "require": {
+        "spatie/data-transfer-object": "dev-main",
+        "ext-dom": "*",
+        "ext-simplexml": "*"
+    }
 }
